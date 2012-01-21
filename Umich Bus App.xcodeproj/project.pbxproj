@@ -19,6 +19,8 @@
 		BF5EB83814CA65BE0074CF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB81B14CA65BE0074CF90 /* Foundation.framework */; };
 		BF5EB84014CA65BF0074CF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB83E14CA65BF0074CF90 /* InfoPlist.strings */; };
 		BF5EB84314CA65BF0074CF90 /* Umich_Bus_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB84214CA65BF0074CF90 /* Umich_Bus_AppTests.m */; };
+		F9C4B44414CA6A370038BA05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C4B44314CA6A370038BA05 /* CoreLocation.framework */; };
+		F9C4B44814CA6AFD0038BA05 /* location.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C4B44714CA6AFD0038BA05 /* location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		BF5EB83F14CA65BF0074CF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF5EB84114CA65BF0074CF90 /* Umich_Bus_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Umich_Bus_AppTests.h; sourceTree = "<group>"; };
 		BF5EB84214CA65BF0074CF90 /* Umich_Bus_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Umich_Bus_AppTests.m; sourceTree = "<group>"; };
+		F9C4B44314CA6A370038BA05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9C4B44614CA6AFD0038BA05 /* location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = location.h; sourceTree = "<group>"; };
+		F9C4B44714CA6AFD0038BA05 /* location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C4B44414CA6A370038BA05 /* CoreLocation.framework in Frameworks */,
 				BF5EB81A14CA65BE0074CF90 /* UIKit.framework in Frameworks */,
 				BF5EB81C14CA65BE0074CF90 /* Foundation.framework in Frameworks */,
 			);
@@ -78,6 +84,9 @@
 		BF5EB80A14CA65BE0074CF90 = {
 			isa = PBXGroup;
 			children = (
+				F9C4B44614CA6AFD0038BA05 /* location.h */,
+				F9C4B44714CA6AFD0038BA05 /* location.m */,
+				F9C4B44314CA6A370038BA05 /* CoreLocation.framework */,
 				BF5EB81D14CA65BE0074CF90 /* Umich Bus App */,
 				BF5EB83B14CA65BE0074CF90 /* Umich Bus AppTests */,
 				BF5EB81814CA65BE0074CF90 /* Frameworks */,
@@ -257,6 +266,7 @@
 				BF5EB82414CA65BE0074CF90 /* main.m in Sources */,
 				BF5EB82814CA65BE0074CF90 /* AppDelegate.m in Sources */,
 				BF5EB82B14CA65BE0074CF90 /* ViewController.m in Sources */,
+				F9C4B44814CA6AFD0038BA05 /* location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +436,7 @@
 				BF5EB84814CA65BF0074CF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF5EB84914CA65BF0074CF90 /* Build configuration list for PBXNativeTarget "Umich Bus AppTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +445,7 @@
 				BF5EB84B14CA65BF0074CF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
