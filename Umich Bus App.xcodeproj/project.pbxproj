@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5EB81A14CA65BE0074CF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB81914CA65BE0074CF90 /* UIKit.framework */; };
+		BF5EB81C14CA65BE0074CF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB81B14CA65BE0074CF90 /* Foundation.framework */; };
+		BF5EB82214CA65BE0074CF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB82014CA65BE0074CF90 /* InfoPlist.strings */; };
+		BF5EB82414CA65BE0074CF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB82314CA65BE0074CF90 /* main.m */; };
+		BF5EB82814CA65BE0074CF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB82714CA65BE0074CF90 /* AppDelegate.m */; };
+		BF5EB82B14CA65BE0074CF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB82A14CA65BE0074CF90 /* ViewController.m */; };
+		BF5EB82E14CA65BE0074CF90 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB82C14CA65BE0074CF90 /* ViewController.xib */; };
+		BF5EB83614CA65BE0074CF90 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB83514CA65BE0074CF90 /* SenTestingKit.framework */; };
+		BF5EB83714CA65BE0074CF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB81914CA65BE0074CF90 /* UIKit.framework */; };
+		BF5EB83814CA65BE0074CF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB81B14CA65BE0074CF90 /* Foundation.framework */; };
+		BF5EB84014CA65BF0074CF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB83E14CA65BF0074CF90 /* InfoPlist.strings */; };
+		BF5EB84314CA65BF0074CF90 /* Umich_Bus_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB84214CA65BF0074CF90 /* Umich_Bus_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5EB83914CA65BE0074CF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5EB80C14CA65BE0074CF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5EB81414CA65BE0074CF90;
+			remoteInfo = "Umich Bus App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5EB81514CA65BE0074CF90 /* Umich Bus App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umich Bus App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5EB81914CA65BE0074CF90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF5EB81B14CA65BE0074CF90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF5EB81F14CA65BE0074CF90 /* Umich Bus App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Umich Bus App-Info.plist"; sourceTree = "<group>"; };
+		BF5EB82114CA65BE0074CF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF5EB82314CA65BE0074CF90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5EB82514CA65BE0074CF90 /* Umich Bus App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Umich Bus App-Prefix.pch"; sourceTree = "<group>"; };
+		BF5EB82614CA65BE0074CF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5EB82714CA65BE0074CF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5EB82914CA65BE0074CF90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF5EB82A14CA65BE0074CF90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF5EB82D14CA65BE0074CF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BF5EB83414CA65BE0074CF90 /* Umich Bus AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Umich Bus AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5EB83514CA65BE0074CF90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF5EB83D14CA65BF0074CF90 /* Umich Bus AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Umich Bus AppTests-Info.plist"; sourceTree = "<group>"; };
+		BF5EB83F14CA65BF0074CF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF5EB84114CA65BF0074CF90 /* Umich_Bus_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Umich_Bus_AppTests.h; sourceTree = "<group>"; };
+		BF5EB84214CA65BF0074CF90 /* Umich_Bus_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Umich_Bus_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5EB81214CA65BE0074CF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB81A14CA65BE0074CF90 /* UIKit.framework in Frameworks */,
+				BF5EB81C14CA65BE0074CF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB83014CA65BE0074CF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB83614CA65BE0074CF90 /* SenTestingKit.framework in Frameworks */,
+				BF5EB83714CA65BE0074CF90 /* UIKit.framework in Frameworks */,
+				BF5EB83814CA65BE0074CF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5EB80A14CA65BE0074CF90 = {
+			isa = PBXGroup;
+			children = (
+				BF5EB81D14CA65BE0074CF90 /* Umich Bus App */,
+				BF5EB83B14CA65BE0074CF90 /* Umich Bus AppTests */,
+				BF5EB81814CA65BE0074CF90 /* Frameworks */,
+				BF5EB81614CA65BE0074CF90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5EB81614CA65BE0074CF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB81514CA65BE0074CF90 /* Umich Bus App.app */,
+				BF5EB83414CA65BE0074CF90 /* Umich Bus AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5EB81814CA65BE0074CF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB81914CA65BE0074CF90 /* UIKit.framework */,
+				BF5EB81B14CA65BE0074CF90 /* Foundation.framework */,
+				BF5EB83514CA65BE0074CF90 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5EB81D14CA65BE0074CF90 /* Umich Bus App */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB82614CA65BE0074CF90 /* AppDelegate.h */,
+				BF5EB82714CA65BE0074CF90 /* AppDelegate.m */,
+				BF5EB82914CA65BE0074CF90 /* ViewController.h */,
+				BF5EB82A14CA65BE0074CF90 /* ViewController.m */,
+				BF5EB82C14CA65BE0074CF90 /* ViewController.xib */,
+				BF5EB81E14CA65BE0074CF90 /* Supporting Files */,
+			);
+			path = "Umich Bus App";
+			sourceTree = "<group>";
+		};
+		BF5EB81E14CA65BE0074CF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB81F14CA65BE0074CF90 /* Umich Bus App-Info.plist */,
+				BF5EB82014CA65BE0074CF90 /* InfoPlist.strings */,
+				BF5EB82314CA65BE0074CF90 /* main.m */,
+				BF5EB82514CA65BE0074CF90 /* Umich Bus App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5EB83B14CA65BE0074CF90 /* Umich Bus AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB84114CA65BF0074CF90 /* Umich_Bus_AppTests.h */,
+				BF5EB84214CA65BF0074CF90 /* Umich_Bus_AppTests.m */,
+				BF5EB83C14CA65BF0074CF90 /* Supporting Files */,
+			);
+			path = "Umich Bus AppTests";
+			sourceTree = "<group>";
+		};
+		BF5EB83C14CA65BF0074CF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB83D14CA65BF0074CF90 /* Umich Bus AppTests-Info.plist */,
+				BF5EB83E14CA65BF0074CF90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5EB81414CA65BE0074CF90 /* Umich Bus App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5EB84614CA65BF0074CF90 /* Build configuration list for PBXNativeTarget "Umich Bus App" */;
+			buildPhases = (
+				BF5EB81114CA65BE0074CF90 /* Sources */,
+				BF5EB81214CA65BE0074CF90 /* Frameworks */,
+				BF5EB81314CA65BE0074CF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Umich Bus App";
+			productName = "Umich Bus App";
+			productReference = BF5EB81514CA65BE0074CF90 /* Umich Bus App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5EB83314CA65BE0074CF90 /* Umich Bus AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5EB84914CA65BF0074CF90 /* Build configuration list for PBXNativeTarget "Umich Bus AppTests" */;
+			buildPhases = (
+				BF5EB82F14CA65BE0074CF90 /* Sources */,
+				BF5EB83014CA65BE0074CF90 /* Frameworks */,
+				BF5EB83114CA65BE0074CF90 /* Resources */,
+				BF5EB83214CA65BE0074CF90 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5EB83A14CA65BE0074CF90 /* PBXTargetDependency */,
+			);
+			name = "Umich Bus AppTests";
+			productName = "Umich Bus AppTests";
+			productReference = BF5EB83414CA65BE0074CF90 /* Umich Bus AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5EB80C14CA65BE0074CF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Michigan";
+			};
+			buildConfigurationList = BF5EB80F14CA65BE0074CF90 /* Build configuration list for PBXProject "Umich Bus App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF5EB80A14CA65BE0074CF90;
+			productRefGroup = BF5EB81614CA65BE0074CF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5EB81414CA65BE0074CF90 /* Umich Bus App */,
+				BF5EB83314CA65BE0074CF90 /* Umich Bus AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5EB81314CA65BE0074CF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB82214CA65BE0074CF90 /* InfoPlist.strings in Resources */,
+				BF5EB82E14CA65BE0074CF90 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB83114CA65BE0074CF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB84014CA65BF0074CF90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF5EB83214CA65BE0074CF90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5EB81114CA65BE0074CF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB82414CA65BE0074CF90 /* main.m in Sources */,
+				BF5EB82814CA65BE0074CF90 /* AppDelegate.m in Sources */,
+				BF5EB82B14CA65BE0074CF90 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB82F14CA65BE0074CF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB84314CA65BF0074CF90 /* Umich_Bus_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5EB83A14CA65BE0074CF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5EB81414CA65BE0074CF90 /* Umich Bus App */;
+			targetProxy = BF5EB83914CA65BE0074CF90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5EB82014CA65BE0074CF90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5EB82114CA65BE0074CF90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF5EB82C14CA65BE0074CF90 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5EB82D14CA65BE0074CF90 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		BF5EB83E14CA65BF0074CF90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5EB83F14CA65BF0074CF90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5EB84414CA65BF0074CF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF5EB84514CA65BF0074CF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5EB84714CA65BF0074CF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Umich Bus App/Umich Bus App-Prefix.pch";
+				INFOPLIST_FILE = "Umich Bus App/Umich Bus App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF5EB84814CA65BF0074CF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Umich Bus App/Umich Bus App-Prefix.pch";
+				INFOPLIST_FILE = "Umich Bus App/Umich Bus App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF5EB84A14CA65BF0074CF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Umich Bus App.app/Umich Bus App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Umich Bus App/Umich Bus App-Prefix.pch";
+				INFOPLIST_FILE = "Umich Bus AppTests/Umich Bus AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BF5EB84B14CA65BF0074CF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Umich Bus App.app/Umich Bus App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Umich Bus App/Umich Bus App-Prefix.pch";
+				INFOPLIST_FILE = "Umich Bus AppTests/Umich Bus AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5EB80F14CA65BE0074CF90 /* Build configuration list for PBXProject "Umich Bus App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB84414CA65BF0074CF90 /* Debug */,
+				BF5EB84514CA65BF0074CF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5EB84614CA65BF0074CF90 /* Build configuration list for PBXNativeTarget "Umich Bus App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB84714CA65BF0074CF90 /* Debug */,
+				BF5EB84814CA65BF0074CF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF5EB84914CA65BF0074CF90 /* Build configuration list for PBXNativeTarget "Umich Bus AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB84A14CA65BF0074CF90 /* Debug */,
+				BF5EB84B14CA65BF0074CF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5EB80C14CA65BE0074CF90 /* Project object */;
+}
